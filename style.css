@@ -1,2 +1,4 @@
 /* General styling for the entire page */
-body {}
+body {
+	font-family: 'Helvetica Neue', Arial, sans-serif; 
+}
