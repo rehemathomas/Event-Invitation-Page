@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> <!-- Defines character encoding for the document -->
-    <meta name="viewport" content="width=S, initial-scale=1.0"> <!-- Ensures responsiveness on mobile devices -->
-    <title>Event Invitation Page</title> <!-- Page title displayed in the browser tab -->
-    <link rel="stylesheet" href="style.css"> <!-- Links external CSS file for styling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
 </head>
 <body>
+    <!-- Hero section with event invitation message -->
     <div class="hero">
-        <div class="hero-content"> <!-- Hero section for the invitation banner -->
-            <h1>You're Invited!</h1> <!-- Content inside the hero section -->
-            <p class="event-details">Join us for a special evening of celebration.</p><!--Brief event description-->
+        <div class="hero-content">
+            <h1>You're Invited!</h1>
+            <p class="event-details">Join us for a special evening of celebration.</p>
         </div>
     </div>
-    div class="container"><!--Wrapper for the main content-->
-        <section class="event-info"><!--Section containing event details-->
-            <h2>Event Details</h2><!--Event section heading-->
-            <p><strong>Date:</strong> April 20, 2025</p><!--Event date-->
-            <p><strong>Time:</strong> 6:00 PM - 10:00 PM</p><!--Event timing-->
-            <p><strong>Location:</strong> Grand Hall, Downtown</p><!--Event location-->
+    
+    <div class="container">
+        <!-- Event details section -->
+        <section class="event-info">
+            <h2>Event Details</h2>
+            <p><strong>Date:</strong> April 20, 2025</p>
+            <p><strong>Time:</strong> 6:00 PM - 10:00 PM</p>
+            <p><strong>Location:</strong> Grand Hall, Downtown</p>
         </section>
-        <section class="rsvp"><!--RSVP section for user responses-->
-            <h2>RSVP Now</h2><!--RSVP section title-->
-            <form id="rsvp-form"><!--RSVP form for user input-->
-                <label for="name">Your Name</label><!--Label for name input field-->
-                <input type="text" id="name" placeholder="Your Name" required aria-label="Your Name"><!-- name input field-->
-                <label for="email">Your Email</label><!--Label for Email input field-->
-                <input type="email" id="email" placeholder="Your Email" required aria-label="Your Email"><!-- Email input field-->
-                <label for="guests">Number of Guests</label><!--Label for guests input field-->
-                <input type="number" id="guests" placeholder="Number of Guests" required aria-label="Number of Guests" min="1"><!--Guest count Email input field-->
-                <button type="submit">Confirm Attendance</button><!--submission button for RSVP-->
+        
+        <!-- RSVP form section -->
+        <section class="rsvp">
+            <h2>RSVP Now</h2>
+            <form id="rsvp-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+                
+                <label for="guests">Number of Guests</label>
+                <input type="number" id="guests" placeholder="Number of Guests" required min="1">
+                
+                <button type="submit">Confirm Attendance</button>
             </form>
-            <p id="thank-you-message" style="display:none;">Thank you for your RSVP!</p><!--message displayed upon successful RSVP-->
+            
+            <!-- Thank you message shown after form submission -->
+            <p id="thank-you-message" style="display:none;">Thank you for your RSVP!</p>
         </section>
-        <footer><!--Footer section-->
-            <p>We look forward to celebrating with you!</p><!--Closing message-->
+        
+        <!-- Footer section -->
+        <footer>
+            <p>We look forward to celebrating with you!</p>
         </footer>
     </div>
+    
     <script>
+        // Handle RSVP form submission
         document.getElementById('rsvp-form').addEventListener('submit', function(event) {
-            event.preventDefault();
+            event.preventDefault(); 
             document.getElementById('thank-you-message').style.display = 'block';
-
-            // Clear the form fields
             document.getElementById('rsvp-form').reset();
-
+            
             // Hide the thank-you message after 3 seconds
             setTimeout(function() {
                 document.getElementById('thank-you-message').style.display = 'none';
