@@ -13,4 +13,5 @@ body {
         url('hero-image.jpg') no-repeat center center/cover;
     height: 400px;
     display: flex; 
+    justify-content: center; 
 }
