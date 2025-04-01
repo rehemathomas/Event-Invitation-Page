@@ -19,3 +19,8 @@ body {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Styles for the main heading inside the hero section */
+.hero-content h1 {
+    
+}
