@@ -24,4 +24,5 @@ body {
 .hero-content h1 {
     font-size: 4em;
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
