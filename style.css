@@ -23,4 +23,5 @@ body {
 /* Styles for the main heading inside the hero section */
 .hero-content h1 {
     font-size: 4em;
+    margin: 0;
 }
