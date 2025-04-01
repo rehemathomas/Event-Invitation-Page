@@ -1,13 +1,14 @@
 /* General styling for the entire page */
 body {
-	font-family: 'Helvetica Neue', Arial, sans-serif; 
-	margin: 0; 
-	padding: 0; 
-	background-color: #f0f2f5; 
-	color: #333; 
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
 }
 
 /* Hero section */
 .hero {
-	
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('hero-image.jpg') no-repeat center center/cover;
 }
