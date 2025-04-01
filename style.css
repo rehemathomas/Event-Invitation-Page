@@ -12,7 +12,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('hero-image.jpg') no-repeat center center/cover;
     height: 400px;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
+    color: white;
 }
