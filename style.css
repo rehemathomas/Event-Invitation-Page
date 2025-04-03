@@ -25,5 +25,10 @@ body {
   font-size: 4em;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  color: #FFD700;
+  color: #ffd700;
+}
+
+/* Styles for the subheading inside the hero section */
+.hero-content p {
+    
 }
