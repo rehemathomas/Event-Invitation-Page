@@ -30,5 +30,5 @@ body {
 
 /* Styles for the subheading inside the hero section */
 .hero-content p {
-    
+  font-size: 1.5em;
 }
