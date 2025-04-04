@@ -37,3 +37,6 @@ body {
 }
 
 /* Main content container */
+.container {
+  padding: 40px 20px;
+}
