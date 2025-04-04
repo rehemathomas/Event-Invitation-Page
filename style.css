@@ -39,4 +39,5 @@ body {
 /* Main content container */
 .container {
   padding: 40px 20px;
+  max-width: 800px;
 }
