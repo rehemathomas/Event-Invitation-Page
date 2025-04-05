@@ -60,3 +60,6 @@ body {
 }
 
 /* Styling for form labels */
+label {
+  display: block;
+}
