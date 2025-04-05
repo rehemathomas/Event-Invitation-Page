@@ -46,4 +46,5 @@ body {
 /* Styles for both the event details and RSVP sections */
 .event-info, .rsvp {
   background: white;
+  padding: 30px;
 }
