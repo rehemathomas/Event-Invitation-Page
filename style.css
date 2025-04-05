@@ -55,4 +55,5 @@ body {
 /* Styling for section headings */
 .event-info h2, .rsvp h2 {
   color: #2c3e50;
+  border-bottom: 2px solid #007BFF;
 }
