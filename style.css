@@ -47,4 +47,5 @@ body {
 .event-info, .rsvp {
   background: white;
   padding: 30px;
+  margin: 20px 0;
 }
