@@ -67,3 +67,6 @@ label {
 }
 
 /* Styling for input fields */
+input[type="text"], input[type="email"], input[type="number"] {
+  width: 100%;
+}
