@@ -79,4 +79,5 @@ input[type="text"], input[type="email"], input[type="number"] {
 /* Styling for the submit button */
 button {
   background-color: #007BFF;
+  color: white;
 }
