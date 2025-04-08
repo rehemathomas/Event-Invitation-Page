@@ -80,4 +80,5 @@ input[type="text"], input[type="email"], input[type="number"] {
 button {
   background-color: #007BFF;
   color: white;
+  padding: 12px 20px;
 }
