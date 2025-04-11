@@ -110,4 +110,5 @@ footer {
 /* Styling for the RSVP confirmation message */
 #thank-you-message {
   color: #28a745;
+  font-size: 1.2em;
 }
